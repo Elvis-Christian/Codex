@@ -1,0 +1,9 @@
+{
+  "DomainName": "EBENESER.lokal",
+  "DefaultSubnetMask": "255.255.255.0",
+  "DefaultGateway": "192.168.2.1",
+  "DefaultDns": "192.168.200.4",
+  "RustDeskKey": "LjpIRqXwDB3m8Zvvan1Th7KF3A0F6R9cgLMCG69KtYQ=",
+  "ZabbixServerIP": "192.168.2.165",
+  "Office2016Key": "472N6-6CQGP-D28GX-99T3X-2YVB2"
+}

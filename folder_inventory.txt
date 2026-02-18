@@ -1,0 +1,314 @@
+
+FullName                                                                                                                            Length    LastWriteTime
+--------                                                                                                                            ------    -------------
+F:\Deployment\Einrichtungsskripte                                                                                                             11.02.2026 08:35:50
+F:\Deployment\Einrichtungsskripte\EinrichtungAbgeschlossen.cmd                                                                      299       11.02.2026 08:35:50
+F:\Deployment\Einrichtungsskripte\logs                                                                                                        10.02.2026 09:45:54
+F:\Deployment\Einrichtungsskripte\progress.json                                                                                     88        10.02.2026 09:46:14
+F:\Deployment\Einrichtungsskripte\SetupComplete.cmd                                                                                 579       10.02.2026 09:46:14
+F:\Deployment\folder_inventory.txt                                                                                                  0         18.02.2026 08:56:29
+F:\Deployment\Installationsprogramme                                                                                                          10.02.2026 09:45:54
+F:\Deployment\Installationsprogramme\Apps                                                                                                     10.02.2026 14:42:16
+F:\Deployment\Installationsprogramme\Apps\SophosSetup.exe                                                                           2773344   10.02.2026 14:39:22
+F:\Deployment\Installationsprogramme\Apps\VivendiManager.Client.Installer.Preconfigured.exe                                         17316424  29.08.2023 12:08:26
+F:\Deployment\Installationsprogramme\Drivers                                                                                                  10.02.2026 09:45:54
+F:\Deployment\Installationsprogramme\Edge                                                                                                     10.02.2026 09:45:54
+F:\Deployment\Installationsprogramme\Office2016                                                                                               10.02.2026 14:37:20
+F:\Deployment\Installationsprogramme\Office2016\.DS_Store_Number                                                                    29        14.01.2026 13:16:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374                                                  10.02.2026 14:36:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin                                            10.02.2026 14:36:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\access16.opax                    64158     30.07.2015 06:06:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de                                      10.02.2026 14:35:58
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\access16.opal              143930    30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\excel16.opal               285482    30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\lync16.opal                28138     30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\octres.dll                 436968    31.07.2015 15:38:26
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\office16.opal              1089404   30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\onent16.opal               108598    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\outlk16.opal               716550    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\ppt16.opal                 227732    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\proj16.opal                247444    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\pub16.opal                 65550     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\spd16.opal                 19104     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\visio16.opal               156962    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\de-de\word16.opal                360292    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us                                      10.02.2026 14:36:00
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\access16.opal              124628    30.07.2015 06:06:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\excel16.opal               244138    30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\octres.dll                 418016    31.07.2015 15:40:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\office16.opal              959504    30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\onent16.opal               95882     30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\outlk16.opal               619324    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\ppt16.opal                 195182    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\proj16.opal                218778    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\pub16.opal                 54498     30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\spd16.opal                 17426     30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\visio16.opal               136500    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\en-us\word16.opal                310974    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es                                      10.02.2026 14:36:00
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\access16.opal              141122    30.07.2015 08:13:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\excel16.opal               278340    30.07.2015 08:13:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\lync16.opal                27870     30.07.2015 08:13:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\octres.dll                 438024    31.07.2015 15:38:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\office16.opal              1069590   30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\onent16.opal               107768    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\outlk16.opal               713382    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\ppt16.opal                 217624    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\proj16.opal                239906    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\pub16.opal                 62490     30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\spd16.opal                 19410     30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\visio16.opal               151386    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\es-es\word16.opal                339632    30.07.2015 08:13:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\excel16.opax                     204078    30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr                                      10.02.2026 14:36:02
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\access16.opal              140902    30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\excel16.opal               281710    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\lync16.opal                28280     30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\octres.dll                 439544    31.07.2015 15:38:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\office16.opal              1080076   30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\onent16.opal               107738    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\outlk16.opal               719276    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\ppt16.opal                 224720    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\proj16.opal                241096    30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\pub16.opal                 62908     30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\spd16.opal                 19016     30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\visio16.opal               154270    30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\fr-fr\word16.opal                354680    30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it                                      10.02.2026 14:36:04
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\access16.opal              139990    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\excel16.opal               282812    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\lync16.opal                27442     30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\octres.dll                 434952    31.07.2015 15:38:26
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\office16.opal              1078834   30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\onent16.opal               110042    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\outlk16.opal               723264    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\ppt16.opal                 224438    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\proj16.opal                245798    30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\pub16.opal                 64238     30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\spd16.opal                 18990     30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\visio16.opal               154390    30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\it-it\word16.opal                354700    30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp                                      10.02.2026 14:36:04
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\access16.opal              94682     30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\excel16.opal               182448    30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\lync16.opal                18926     30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\octres.dll                 399528    31.07.2015 15:38:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\office16.opal              747126    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\onent16.opal               73980     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\outlk16.opal               442298    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\ppt16.opal                 146586    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\proj16.opal                163690    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\pub16.opal                 38518     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\spd16.opal                 15766     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\visio16.opal               104190    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ja-jp\word16.opal                231922    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr                                      10.02.2026 14:36:06
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\access16.opal              94366     30.07.2015 08:13:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\excel16.opal               179924    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\lync16.opal                18912     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\octres.dll                 397024    31.07.2015 15:38:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\office16.opal              724692    30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\onent16.opal               73376     30.07.2015 08:13:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\outlk16.opal               433680    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\ppt16.opal                 144202    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\proj16.opal                165022    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\pub16.opal                 39000     30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\spd16.opal                 15376     30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\visio16.opal               103566    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ko-kr\word16.opal                228386    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\oct.dll                          5006536   31.07.2015 15:40:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\octca.dll                        127656    31.07.2015 15:40:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\office16.opax                    1333078   30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\onent16.opax                     116530    30.07.2015 06:06:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\outlk16.opax                     561742    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ppt16.opax                       134886    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\proj16.opax                      277644    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br                                      10.02.2026 14:36:06
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\access16.opal              137136    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\excel16.opal               273728    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\lync16.opal                27288     30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\octres.dll                 431872    31.07.2015 15:38:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\office16.opal              1044744   30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\onent16.opal               104078    30.07.2015 08:13:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\outlk16.opal               691888    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\ppt16.opal                 217106    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\proj16.opal                237480    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\pub16.opal                 61520     30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\spd16.opal                 18748     30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\visio16.opal               148532    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pt-br\word16.opal                345270    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\pub16.opax                       38120     30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru                                      10.02.2026 14:36:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\access16.opal              130816    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\excel16.opal               260292    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\lync16.opal                26088     30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\octres.dll                 429736    31.07.2015 15:38:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\office16.opal              1029102   30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\onent16.opal               102778    30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\outlk16.opal               676050    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\ppt16.opal                 207016    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\proj16.opal                232076    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\pub16.opal                 58060     30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\spd16.opal                 18858     30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\visio16.opal               144198    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\ru-ru\word16.opal                329626    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\spd16.opax                       20350     30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\visio16.opax                     100134    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\word16.opax                      368842    30.07.2015 06:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn                                      10.02.2026 14:36:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\access16.opal              81294     30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\excel16.opal               154096    30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\lync16.opal                16660     30.07.2015 08:13:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\octres.dll                 387752    31.07.2015 15:38:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\office16.opal              641302    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\onent16.opal               65258     30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\outlk16.opal               364472    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\ppt16.opal                 123696    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\proj16.opal                142864    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\pub16.opal                 31842     30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\spd16.opal                 14358     30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\visio16.opal               90172     30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-cn\word16.opal                197398    30.07.2015 08:13:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw                                      10.02.2026 14:36:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\access16.opal              82232     30.07.2015 08:13:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\excel16.opal               156726    30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\lync16.opal                16912     30.07.2015 08:13:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\octres.dll                 388264    31.07.2015 15:38:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\office16.opal              649296    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\onent16.opal               65778     30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\outlk16.opal               370130    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\ppt16.opal                 125398    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\proj16.opal                144720    30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\pub16.opal                 32730     30.07.2015 08:13:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\spd16.opal                 14626     30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\visio16.opal               91374     30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\admin\zh-tw\word16.opal                200580    30.07.2015 08:13:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\autorun.inf                            175       28.05.2015 07:53:28
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\catalog                                          10.02.2026 14:36:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\catalog\files.cat                      93544     31.07.2015 20:16:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\excel.de-de                                      10.02.2026 14:36:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\excel.de-de\excellr.cab                6384634   31.07.2015 20:35:58
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\excel.de-de\excelmui.msi               2396160   31.07.2015 20:16:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\excel.de-de\excelmui.xml               1780      31.07.2015 18:57:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\excel.de-de\setup.xml                  2482      31.07.2015 23:18:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\groove.de-de                                     10.02.2026 14:36:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\groove.de-de\groovelr.cab              880652    31.07.2015 20:31:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\groove.de-de\groovemui.msi             2383872   31.07.2015 20:16:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\groove.de-de\groovemui.xml             1126      31.07.2015 18:57:54
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\groove.de-de\setup.xml                 1640      31.07.2015 23:18:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes                                         10.02.2026 14:36:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows6.1-kb2999226-x64.msu  1026422   24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows6.1-kb2999226-x86.msu  621986    24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows8-rt-kb2999226-x64.msu 1347630   24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows8-rt-kb2999226-x86.msu 615304    24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows8.1-kb2999226-x64.msu  994589    24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\hotfixes\windows8.1-kb2999226-x86.msu  595977    24.07.2015 08:17:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de                                     10.02.2026 14:36:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\branding.xml              413912    30.07.2015 18:59:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\officelr.cab              10793125  31.07.2015 20:39:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\officemui.msi             4341760   31.07.2015 20:19:26
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\officemui.xml             5229      31.07.2015 19:25:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\osetupui.dll              238784    31.07.2015 15:38:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\pss10r.chm                14781     28.05.2015 07:53:02
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\setup.chm                 84410     11.06.2015 10:05:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\setup.xml                 7894      31.07.2015 23:18:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office.de-de\shellui.mst               68608     31.07.2015 17:48:28
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office64.de-de                                   10.02.2026 14:36:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office64.de-de\office64mui.msi         1249280   31.07.2015 20:19:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office64.de-de\office64mui.xml         1997      31.07.2015 19:00:02
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office64.de-de\owow64lr.cab            2100997   31.07.2015 20:39:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\office64.de-de\setup.xml               2902      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\onenote.de-de                                    10.02.2026 14:36:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\onenote.de-de\onenotemui.msi           2392064   31.07.2015 20:19:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\onenote.de-de\onenotemui.xml           1817      31.07.2015 19:02:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\onenote.de-de\onotelr.cab              8245008   31.07.2015 20:19:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\onenote.de-de\setup.xml                2174      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osm.de-de                                        10.02.2026 14:36:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osm.de-de\osmmui.cab                   16865     31.07.2015 20:34:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osm.de-de\osmmui.msi                   1228800   31.07.2015 20:19:34
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osm.de-de\osmmui.xml                   1123      31.07.2015 19:03:04
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osm.de-de\setup.xml                    2038      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osmux.de-de                                      10.02.2026 14:36:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osmux.de-de\osmuxmui.cab               4235591   31.07.2015 20:34:54
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osmux.de-de\osmuxmui.msi               1069056   31.07.2015 20:19:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osmux.de-de\osmuxmui.xml               1458      31.07.2015 19:03:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\osmux.de-de\setup.xml                  2454      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\outlook.de-de                                    10.02.2026 14:36:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\outlook.de-de\outlklr.cab              4406133   31.07.2015 20:34:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\outlook.de-de\outlookmui.msi           2838528   31.07.2015 20:19:28
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\outlook.de-de\outlookmui.xml           2838      31.07.2015 19:04:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\outlook.de-de\setup.xml                3870      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\powerpoint.de-de                                 10.02.2026 14:36:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\powerpoint.de-de\powerpointmui.msi     2392064   31.07.2015 20:17:06
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\powerpoint.de-de\powerpointmui.xml     1662      31.07.2015 19:06:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\powerpoint.de-de\pptlr.cab             6453202   31.07.2015 20:45:04
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\powerpoint.de-de\setup.xml             2072      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de                                   10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.de                          10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.de\proof.cab      23772137  31.07.2015 20:17:00
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.de\proof.msi      2109440   31.07.2015 20:28:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.de\proof.xml      1667      31.07.2015 19:18:58
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.en                          10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.en\proof.cab      11658047  31.07.2015 20:17:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.en\proof.msi      2101248   31.07.2015 20:28:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.en\proof.xml      1555      31.07.2015 19:18:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.fr                          10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.fr\proof.cab      13854357  31.07.2015 20:17:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.fr\proof.msi      2109440   31.07.2015 20:28:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.fr\proof.xml      1665      31.07.2015 19:19:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.it                          10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.it\proof.cab      16698275  31.07.2015 20:17:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.it\proof.msi      2105344   31.07.2015 20:28:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proof.it\proof.xml      1665      31.07.2015 19:19:30
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proofing.msi            1064960   31.07.2015 20:17:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\proofing.xml            1024      31.07.2015 19:07:38
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\proofing.de-de\setup.xml               7589      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\publisher.de-de                                  10.02.2026 14:36:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\publisher.de-de\publishermui.msi       2416640   31.07.2015 20:16:58
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\publisher.de-de\publishermui.xml       1662      31.07.2015 19:08:28
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\publisher.de-de\publr.cab              3547203   31.07.2015 20:32:48
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\publisher.de-de\setup.xml              1795      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\readme.htm                             453       11.06.2015 10:05:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\setup.dll                              607936    31.07.2015 15:40:42
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\setup.exe                              236736    31.07.2015 15:40:44
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww                                      10.02.2026 14:36:20
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\config.xml                 905       28.05.2015 07:53:30
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\office64ww.msi             3944448   31.07.2015 20:19:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\office64ww.xml             4992      31.07.2015 19:26:46
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\ose.exe                    202928    31.07.2015 15:51:14
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\osetup.dll                 9833128   31.07.2015 15:40:40
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\owow64ww.cab               30592188  31.07.2015 20:39:26
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\pidgenx.dll                1274456   30.07.2015 06:02:18
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\pkeyconfig-office.xrm-ms   590523    30.07.2015 08:00:16
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\setup.xml                  26221     31.07.2015 23:18:50
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\standardww.msi             23252992  31.07.2015 20:17:08
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\standardww.xml             15147     31.07.2015 19:19:02
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\stdww.cab                  271087530 31.07.2015 20:38:12
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\standard.ww\stdww2.cab                 204334979 31.07.2015 20:38:04
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\updates                                          10.02.2026 14:36:22
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\updates\readme.txt                     75        28.05.2015 07:53:32
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de                                       10.02.2026 14:36:24
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\setup.xml                   2771      31.07.2015 23:18:52
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\wordlr.cab                  9500296   31.07.2015 20:38:10
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\wordmui.msi                 2408448   31.07.2015 20:28:36
+F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\wordmui.xml                 2108      31.07.2015 19:12:58
+F:\Deployment\Konfigurationen                                                                                                                 11.02.2026 14:37:16
+F:\Deployment\Konfigurationen\anwendungen.txt                                                                                       448       10.02.2026 14:50:46
+F:\Deployment\Konfigurationen\available_printers.json                                                                               314       10.02.2026 09:46:20
+F:\Deployment\Konfigurationen\DruckerInstaller.hta                                                                                  10290     11.02.2026 08:34:40
+F:\Deployment\Konfigurationen\EdgePolicies.json                                                                                     198       10.02.2026 09:46:14
+F:\Deployment\Konfigurationen\EdgeRichtlinien_Dedicado.json                                                                         2078      11.02.2026 09:57:06
+F:\Deployment\Konfigurationen\EdgeRichtlinien_Geral.json                                                                            1287      11.02.2026 09:57:10
+F:\Deployment\Konfigurationen\Shortcuts.txt                                                                                         224       10.02.2026 09:46:14
+F:\Deployment\Konfigurationen\verfuegbare_drucker.json                                                                              479       11.02.2026 08:33:54
+F:\Deployment\SetupScripts                                                                                                                    16.02.2026 14:52:19
+F:\Deployment\SetupScripts\apps.ps1                                                                                                 4194      17.02.2026 14:52:46
+F:\Deployment\SetupScripts\druckerhkp.ps1                                                                                           1724      17.02.2026 12:21:36
+F:\Deployment\SetupScripts\fortsetzen_old.ps1                                                                                       22331     17.02.2026 14:04:26
+F:\Deployment\SetupScripts\fortsetzen.ps1                                                                                           25564     17.02.2026 14:52:42
+F:\Deployment\SetupScripts\PROJEKT_DOKUMENTATION.txt                                                                                23126     11.02.2026 15:54:02
+F:\Deployment\SetupScripts\protokolle                                                                                                         16.02.2026 15:02:29
+F:\Deployment\SetupScripts\star_old.ps1                                                                                             17748     17.02.2026 14:07:26
+F:\Deployment\SetupScripts\start.ps1                                                                                                19482     17.02.2026 14:52:40
+F:\Deployment\tiny11.xml                                                                                                            5446      17.02.2026 13:25:36
+

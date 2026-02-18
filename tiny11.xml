@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend"
+          xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- Erste Phase (Blauer Setup-Bildschirm) -->
+  <settings pass="windowsPE">
+
+    <component name="Microsoft-Windows-International-Core-WinPE"
+               processorArchitecture="amd64"
+               publicKeyToken="31bf3856ad364e35"
+               language="neutral"
+               versionScope="nonSxS">
+
+      <SetupUILanguage>
+        <UILanguage>de-DE</UILanguage>
+      </SetupUILanguage>
+
+      <InputLocale>0407:00000407</InputLocale>
+      <SystemLocale>de-DE</SystemLocale>
+      <UILanguage>de-DE</UILanguage>
+      <UserLocale>de-DE</UserLocale>
+    </component>
+
+    <component name="Microsoft-Windows-Setup"
+               processorArchitecture="amd64"
+               publicKeyToken="31bf3856ad364e35"
+               language="neutral"
+               versionScope="nonSxS">
+
+      <UserData>
+        <AcceptEula>true</AcceptEula>
+      </UserData>
+
+      <!-- Löscht alles auf Datenträger 0 und erstellt EFI + MSR + Windows (UEFI/GPT) -->
+      <DiskConfiguration>
+        <Disk wcm:action="add">
+          <DiskID>0</DiskID>
+          <WillWipeDisk>true</WillWipeDisk>
+
+          <CreatePartitions>
+            <CreatePartition wcm:action="add">
+              <Order>1</Order>
+              <Type>EFI</Type>
+              <Size>260</Size>
+            </CreatePartition>
+
+            <CreatePartition wcm:action="add">
+              <Order>2</Order>
+              <Type>MSR</Type>
+              <Size>16</Size>
+            </CreatePartition>
+
+            <CreatePartition wcm:action="add">
+              <Order>3</Order>
+              <Type>Primary</Type>
+              <Extend>true</Extend>
+            </CreatePartition>
+          </CreatePartitions>
+
+          <ModifyPartitions>
+            <ModifyPartition wcm:action="add">
+              <Order>1</Order>
+              <PartitionID>1</PartitionID>
+              <Format>FAT32</Format>
+              <Label>EFI</Label>
+            </ModifyPartition>
+
+            <ModifyPartition wcm:action="add">
+              <Order>2</Order>
+              <PartitionID>3</PartitionID>
+              <Format>NTFS</Format>
+              <Label>Windows</Label>
+              <Letter>C</Letter>
+            </ModifyPartition>
+          </ModifyPartitions>
+
+        </Disk>
+      </DiskConfiguration>
+
+      <!-- Weist das Setup an, auf der neu erstellten Windows-Partition zu installieren -->
+      <ImageInstall>
+        <OSImage>
+          <InstallTo>
+            <DiskID>0</DiskID>
+            <PartitionID>3</PartitionID>
+          </InstallTo>
+        </OSImage>
+      </ImageInstall>
+
+    </component>
+
+  </settings>
+
+  <!-- Nach-Installation / OOBE -->
+  <settings pass="oobeSystem">
+
+    <component name="Microsoft-Windows-International-Core"
+               processorArchitecture="amd64"
+               publicKeyToken="31bf3856ad364e35"
+               language="neutral"
+               versionScope="nonSxS">
+      <InputLocale>0407:00000407</InputLocale>
+      <SystemLocale>de-DE</SystemLocale>
+      <UILanguage>de-DE</UILanguage>
+      <UserLocale>de-DE</UserLocale>
+    </component>
+
+    <component name="Microsoft-Windows-Shell-Setup"
+               processorArchitecture="amd64"
+               publicKeyToken="31bf3856ad364e35"
+               language="neutral"
+               versionScope="nonSxS">
+
+      <TimeZone>W. Europe Standard Time</TimeZone>
+
+      <OOBE>
+        <HideEULAPage>true</HideEULAPage>
+        <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+        <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+        <ProtectYourPC>1</ProtectYourPC>
+      </OOBE>
+
+      <!-- Erstellt einen lokalen Admin-Benutzer mit Administratorrechten (OHNE Passwort) -->
+      <UserAccounts>
+        <LocalAccounts>
+          <LocalAccount wcm:action="add">
+            <Name>admin</Name>
+            <Group>Administrators</Group>
+          </LocalAccount>
+        </LocalAccounts>
+      </UserAccounts>
+
+      <!-- AutoLogon nur, um das Skript beim ersten Start auszuführen (leeres Passwort) -->
+      <AutoLogon>
+        <Enabled>true</Enabled>
+        <Username>admin</Username>
+        <LogonCount>1</LogonCount>
+        <Password>
+          <Value></Value>
+          <PlainText>true</PlainText>
+        </Password>
+      </AutoLogon>
+
+      <!-- Kopiert \Deployment\SetupScripts\* vom USB nach C:\SetupScripts und führt start.ps1 aus -->
+      <FirstLogonCommands>
+        <SynchronousCommand wcm:action="add">
+          <Order>1</Order>
+          <Description>Kopiert und startet \Deployment\SetupScripts\start.ps1</Description>
+          <CommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "$src=$null; foreach($d in 'C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'){ if(Test-Path ($d+':\Deployment\SetupScripts\start.ps1')){ $src=$d+':\Deployment'; break } }; if(-not $src){ exit 1 }; New-Item -ItemType Directory -Force -Path 'C:\SetupScripts' | Out-Null; Copy-Item -Path ($src+'\*') -Destination 'C:\SetupScripts' -Recurse -Force; powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'C:\SetupScripts\SetupScripts\start.ps1'"</CommandLine>
+        </SynchronousCommand>
+      </FirstLogonCommands>
+
+    </component>
+
+  </settings>
+
+</unattend>

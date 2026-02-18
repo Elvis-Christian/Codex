@@ -21,6 +21,14 @@ if (Test-Path $LocalRoot) {
 }
 $ConfigsPath    = Join-Path $DeploymentRoot "Konfigurationen"
 
+# Optional: Umgebungs-/Kundenparameter aus externer Datei (reduziert Hardcode)
+$EnvConfig = $null
+$EnvConfigPath = Join-Path $ConfigsPath "Umgebung.json"
+if (Test-Path $EnvConfigPath) {
+    try { $EnvConfig = Get-Content -Path $EnvConfigPath -Raw -ErrorAction Stop | ConvertFrom-Json -ErrorAction Stop } catch { $EnvConfig = $null }
+}
+
+
 # Scheduled Task Name (muss zu start.ps1 passen!)
 $TaskName       = "Win11SetupFase2"
 
@@ -424,9 +432,23 @@ if ($CurrentProgress.etapaAtual -lt 4) {
     }
 }
 
-# --- SCHRITT 5: ANWENDUNGSINSTALLATION (WINGET, als Benutzer) ---
-if ($CurrentProgress.etapaAtual -lt 5) {
-    Update-Progress -Etapa 5 -Descricao "Plane App-Installation (Winget) beim Admin-Login"
+# --- SCHRITT 6: ANWENDUNGSINSTALLATION (WINGET, als Benutzer) ---
+$AppsDoneFlag = Join-Path $DeploymentRoot "apps_completed.flag"
+
+# Gate: Phase 2 darf erst nach abgeschlossener App-Installation weiterlaufen (winget läuft im User-Kontext).
+if ($CurrentProgress.etapaAtual -eq 6) {
+    if (-not (Test-Path $AppsDoneFlag)) {
+        Write-Log "Warte auf Abschluss der App-Installation (Flag fehlt: $AppsDoneFlag)."
+        exit 0
+    } else {
+        Write-Log "App-Installation abgeschlossen (Flag gefunden). Fahre fort..."
+        Update-Progress -Etapa 7 -Descricao "Apps abgeschlossen, starte Nachkonfiguration"
+        $CurrentProgress.etapaAtual = 7
+    }
+}
+
+if ($CurrentProgress.etapaAtual -lt 6) {
+    Update-Progress -Etapa 6 -Descricao "Plane App-Installation (Winget) beim Admin-Login"
 
     $AppsTaskName = "Win11SetupApps"
     $AppsScript   = Join-Path $DeploymentRoot "apps.ps1"
@@ -446,6 +468,8 @@ if ($CurrentProgress.etapaAtual -lt 5) {
         Register-ScheduledTask -TaskName $AppsTaskName -Action $action -Trigger $trigger -Principal $principal -Settings $settings -Force | Out-Null
         Write-Log "Apps-Task erstellt: $AppsTaskName (AtLogOn: admin)."
 
+        # Markiere geplant und starte neu, damit Auto-Login/Apps loslegen kann
+        try { New-Item -ItemType File -Path (Join-Path $DeploymentRoot "apps_scheduled.flag") -Force | Out-Null } catch { }
         Write-Log "Neustart, damit der Admin-Login die App-Installation startet..."
         Restart-Computer -Force
         exit 0
@@ -459,6 +483,9 @@ if ($CurrentProgress.etapaAtual -lt 7) {
     # 6.1 - RustDesk
     Write-Log "Konfiguriere öffentlichen Schlüssel von RustDesk..."
     $RustDeskKey = "LjpIRqXwDB3m8Zvvan1Th7KF3A0F6R9cgLMCG69KtYQ="
+    if ($EnvConfig -and $EnvConfig.RustDeskKey) {
+        try { $RustDeskKey = [string]$EnvConfig.RustDeskKey } catch { }
+    }
     $RustDeskConfigPath = "C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\RustDesk\config\RustDesk.toml"
     try {
         $RustDeskDir = Split-Path $RustDeskConfigPath -Parent
@@ -480,16 +507,12 @@ if ($CurrentProgress.etapaAtual -lt 7) {
         Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
     }
 
-        } else {
-            Write-Log "WARNUNG: RustDesk-Verzeichnis nicht gefunden: $RustDeskDir"
-        }
-    } catch {
-        Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
-    }
-
     # 6.2 - Zabbix Agent
     Write-Log "Konfiguriere Zabbix Agent..."
     $ZabbixServerIP   = "192.168.2.165"
+    if ($EnvConfig -and $EnvConfig.ZabbixServerIP) {
+        try { $ZabbixServerIP = [string]$EnvConfig.ZabbixServerIP } catch { }
+    }
     $ZabbixConfigPath = "C:\Program Files\Zabbix Agent\zabbix_agentd.conf"
     if (Test-Path $ZabbixConfigPath) {
         try {

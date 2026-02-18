@@ -34,9 +34,9 @@ function Update-Progress {
     }
 
     $toWrite = [ordered]@{
-        etapaAtual          = $Etapa
-        descricaoAtual      = $Descricao
-        dataAtualizacao     = (Get-Date).ToString("s")
+        etapaAtual = $Etapa
+        descricao  = $Descricao
+        timestamp  = (Get-Date).ToString("o")
         configuracoesIniciais = $null
     }
 
@@ -132,6 +132,15 @@ try {
     Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false -ErrorAction SilentlyContinue | Out-Null
     Write-Log "Apps-Task entfernt: $TaskName"
 } catch { }
+
+
+# Abschluss-Flag setzen, damit fortsetzen.ps1 weiterlaufen darf
+try {
+    New-Item -ItemType File -Path (Join-Path $DeploymentRoot "apps_completed.flag") -Force | Out-Null
+    Write-Log "Apps-Abschluss-Flag geschrieben: $(Join-Path $DeploymentRoot "apps_completed.flag")"
+} catch {
+    Write-Log "WARNUNG: Konnte apps_completed.flag nicht schreiben: $_"
+}
 
 Write-Log "Neustart, um mit Phase 2 fortzusetzen..."
 Restart-Computer -Force

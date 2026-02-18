@@ -18,10 +18,30 @@ $LogFile      = Join-Path $LogDir    "setup_log.txt"
 
 # --- LOKALE AUSFÜHRUNG (kein Pendrive nach der Installation nötig) ---
 $LocalRoot = "C:\SetupScripts\Win11Deploy"
+
+# Wenn start.ps1 aus ...\SetupScripts\ gestartet wird, liegen Konfigurationen\ und Installationsprogramme\ typischerweise
+# eine Ebene höher (Deployment-Root).
+$DeploymentRoot = Split-Path -Parent $ScriptRoot
+$HasSiblingFolders = (Test-Path (Join-Path $DeploymentRoot "Konfigurationen")) -or (Test-Path (Join-Path $DeploymentRoot "Installationsprogramme"))
+
 if ($ScriptRoot -ne $LocalRoot) {
     try {
         if (-not (Test-Path $LocalRoot)) { New-Item -ItemType Directory -Path $LocalRoot -Force | Out-Null }
+
+        # 1) Skripte/Logs aus SetupScripts\ nach Win11Deploy kopieren (damit LocalStart unverändert bleibt)
         Copy-Item -Path (Join-Path $ScriptRoot "*") -Destination $LocalRoot -Recurse -Force -ErrorAction Stop
+
+        # 2) Falls vorhanden: Geschwister-Ordner (Konfigurationen / Installationsprogramme) aus Deployment-Root mitnehmen
+        if ($HasSiblingFolders) {
+            foreach ($folder in @("Konfigurationen","Installationsprogramme")) {
+                $src = Join-Path $DeploymentRoot $folder
+                if (Test-Path $src) {
+                    $dst = Join-Path $LocalRoot $folder
+                    Copy-Item -Path $src -Destination $dst -Recurse -Force -ErrorAction Stop
+                }
+            }
+        }
+
         # Relaunch local
         $LocalStart = Join-Path $LocalRoot "start.ps1"
         Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$LocalStart`"" -Verb RunAs
@@ -31,11 +51,14 @@ if ($ScriptRoot -ne $LocalRoot) {
     }
 }
 
-# Nach Relauch: Pfade auf lokal setzen
-$ScriptRoot   = $LocalRoot
-$ProgressFile = Join-Path $ScriptRoot "fortschritt.json"
-$LogDir       = Join-Path $ScriptRoot "protokolle"
-$LogFile      = Join-Path $LogDir    "setup_log.txt"
+# Nach Relauch: Pfade auf lokal setzen (nur wenn vorhanden)
+if (Test-Path (Join-Path $LocalRoot "start.ps1")) {
+    $ScriptRoot   = $LocalRoot
+    $ProgressFile = Join-Path $ScriptRoot "fortschritt.json"
+    $LogDir       = Join-Path $ScriptRoot "protokolle"
+    $LogFile      = Join-Path $LogDir    "setup_log.txt"
+}
+
 
 # --- FUNKTIONEN ---
 

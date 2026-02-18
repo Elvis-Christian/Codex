@@ -467,12 +467,6 @@ if ($CurrentProgress.etapaAtual -lt 7) {
         Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
     }
 
-        } else {
-            Write-Log "WARNUNG: RustDesk-Verzeichnis nicht gefunden: $RustDeskDir"
-        }
-    } catch {
-        Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
-    }
 
     # 6.2 - Zabbix Agent
     Write-Log "Konfiguriere Zabbix Agent..."

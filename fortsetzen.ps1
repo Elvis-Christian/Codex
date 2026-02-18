@@ -275,7 +275,7 @@ $OfficeArgs  = "/quiet"
 
                         # Hinweis: Key hier ist sensibel – falls das real ist, besser extern ablegen.
                         $OfficeKey = $null
-                        if ($EnvCfg -and $EnvCfg.Office2016Key) { $OfficeKey = [string]$EnvCfg.Office2016Key }
+                        if ($EnvConfig -and $EnvConfig.Office2016Key) { $OfficeKey = [string]$EnvConfig.Office2016Key }
                         if (-not $OfficeKey -or $OfficeKey.Trim() -eq "") { $OfficeKey = $env:OFFICE2016_KEY }
                         if (-not $OfficeKey -or $OfficeKey.Trim() -eq "") {
                             $keyFile = Join-Path $ConfigsPath "office2016_key.txt"
@@ -449,7 +449,7 @@ if ($CurrentProgress.etapaAtual -lt 6) {
     Update-Progress -Etapa 6 -Descricao "Plane App-Installation (Winget) beim Admin-Login"
 
     $AppsTaskName = "Win11SetupApps"
-    $AppsScript   = Join-Path $DeploymentRoot "apps.ps1"
+    $AppsScript   = Join-Path (Join-Path $DeploymentRoot "SetupScripts") "apps.ps1"
 
     if (-not (Test-Path $AppsScript)) {
         Write-Log "FEHLER: apps.ps1 nicht gefunden: $AppsScript"

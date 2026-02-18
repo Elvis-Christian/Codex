@@ -10,19 +10,6 @@ $DefaultGateway     = "192.168.2.1"
 $DefaultDns         = "192.168.200.4"
 
 
-# --- UMGEBUNG (optional, aber empfohlen) ---
-$EnvConfigPath = Join-Path $ConfigsPath "Umgebung.json"
-if (Test-Path $EnvConfigPath) {
-    try {
-        $EnvCfg = Get-Content -Path $EnvConfigPath -Raw | ConvertFrom-Json
-        if ($EnvCfg.DomainName)        { $FixedDomainName    = [string]$EnvCfg.DomainName }
-        if ($EnvCfg.DefaultGateway)    { $DefaultGateway     = [string]$EnvCfg.DefaultGateway }
-        if ($EnvCfg.DefaultDns)        { $DefaultDns         = [string]$EnvCfg.DefaultDns }
-        if ($EnvCfg.DefaultSubnetMask) { $DefaultSubnetMask  = [string]$EnvCfg.DefaultSubnetMask }
-    } catch {
-        # Falls Umgebung.json fehlerhaft ist, bleiben Defaults aktiv.
-    }
-}
 # --- PFADE ---
 $ScriptRoot   = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $DeploymentRoot = Split-Path $ScriptRoot -Parent
@@ -68,7 +55,20 @@ $ScriptRoot     = $LocalScriptRoot
 $ConfigsPath    = Join-Path $DeploymentRoot "Konfigurationen"
 $ProgramsPath   = Join-Path $DeploymentRoot "Installationsprogramme"
 
-$ScriptRoot   = $LocalRoot
+# --- UMGEBUNG (optional, aber empfohlen) ---
+$EnvConfigPath = Join-Path $ConfigsPath "Umgebung.json"
+if (Test-Path $EnvConfigPath) {
+    try {
+        $EnvCfg = Get-Content -Path $EnvConfigPath -Raw -ErrorAction Stop | ConvertFrom-Json -ErrorAction Stop
+        if ($EnvCfg.DomainName)        { $FixedDomainName    = [string]$EnvCfg.DomainName }
+        if ($EnvCfg.DefaultGateway)    { $DefaultGateway     = [string]$EnvCfg.DefaultGateway }
+        if ($EnvCfg.DefaultDns)        { $DefaultDns         = [string]$EnvCfg.DefaultDns }
+        if ($EnvCfg.DefaultSubnetMask) { $DefaultSubnetMask  = [string]$EnvCfg.DefaultSubnetMask }
+    } catch {
+        # Falls Umgebung.json fehlerhaft ist, bleiben Defaults aktiv.
+    }
+}
+
 $ProgressFile = Join-Path $ScriptRoot "fortschritt.json"
 $LogDir       = Join-Path $ScriptRoot "protokolle"
 $LogFile      = Join-Path $LogDir    "setup_log.txt"

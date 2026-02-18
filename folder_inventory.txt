@@ -6,13 +6,14 @@ F:\Deployment\Einrichtungsskripte\EinrichtungAbgeschlossen.cmd                  
 F:\Deployment\Einrichtungsskripte\logs                                                                                                        10.02.2026 09:45:54
 F:\Deployment\Einrichtungsskripte\progress.json                                                                                     88        10.02.2026 09:46:14
 F:\Deployment\Einrichtungsskripte\SetupComplete.cmd                                                                                 579       10.02.2026 09:46:14
-F:\Deployment\folder_inventory.txt                                                                                                  0         18.02.2026 08:56:29
+F:\Deployment\folder_inventory.txt                                                                                                  0         18.02.2026 12:38:32
 F:\Deployment\Installationsprogramme                                                                                                          10.02.2026 09:45:54
 F:\Deployment\Installationsprogramme\Apps                                                                                                     10.02.2026 14:42:16
 F:\Deployment\Installationsprogramme\Apps\SophosSetup.exe                                                                           2773344   10.02.2026 14:39:22
 F:\Deployment\Installationsprogramme\Apps\VivendiManager.Client.Installer.Preconfigured.exe                                         17316424  29.08.2023 12:08:26
 F:\Deployment\Installationsprogramme\Drivers                                                                                                  10.02.2026 09:45:54
 F:\Deployment\Installationsprogramme\Edge                                                                                                     10.02.2026 09:45:54
+F:\Deployment\Installationsprogramme\Edge\MicrosoftEdgeEnterpriseX64.msi                                                            192679936 18.02.2026 10:33:04
 F:\Deployment\Installationsprogramme\Office2016                                                                                               10.02.2026 14:37:20
 F:\Deployment\Installationsprogramme\Office2016\.DS_Store_Number                                                                    29        14.01.2026 13:16:44
 F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374                                                  10.02.2026 14:36:22
@@ -293,7 +294,7 @@ F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_M
 F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\wordmui.msi                 2408448   31.07.2015 20:28:36
 F:\Deployment\Installationsprogramme\Office2016\SW_DVD5_Office_2016_W32_German_MLF_X20-41374\word.de-de\wordmui.xml                 2108      31.07.2015 19:12:58
 F:\Deployment\Konfigurationen                                                                                                                 11.02.2026 14:37:16
-F:\Deployment\Konfigurationen\anwendungen.txt                                                                                       448       10.02.2026 14:50:46
+F:\Deployment\Konfigurationen\anwendungen.txt                                                                                       469       18.02.2026 10:47:54
 F:\Deployment\Konfigurationen\available_printers.json                                                                               314       10.02.2026 09:46:20
 F:\Deployment\Konfigurationen\DruckerInstaller.hta                                                                                  10290     11.02.2026 08:34:40
 F:\Deployment\Konfigurationen\EdgePolicies.json                                                                                     198       10.02.2026 09:46:14
@@ -302,13 +303,14 @@ F:\Deployment\Konfigurationen\EdgeRichtlinien_Geral.json                        
 F:\Deployment\Konfigurationen\Shortcuts.txt                                                                                         224       10.02.2026 09:46:14
 F:\Deployment\Konfigurationen\verfuegbare_drucker.json                                                                              479       11.02.2026 08:33:54
 F:\Deployment\SetupScripts                                                                                                                    16.02.2026 14:52:19
-F:\Deployment\SetupScripts\apps.ps1                                                                                                 4194      17.02.2026 14:52:46
+F:\Deployment\SetupScripts\apps.ps1                                                                                                 5601      18.02.2026 12:28:30
 F:\Deployment\SetupScripts\druckerhkp.ps1                                                                                           1724      17.02.2026 12:21:36
-F:\Deployment\SetupScripts\fortsetzen_old.ps1                                                                                       22331     17.02.2026 14:04:26
-F:\Deployment\SetupScripts\fortsetzen.ps1                                                                                           25564     17.02.2026 14:52:42
+F:\Deployment\SetupScripts\fortsetzen.ps1                                                                                           26043     18.02.2026 12:28:28
+F:\Deployment\SetupScripts\old                                                                                                                18.02.2026 09:00:44
+F:\Deployment\SetupScripts\old\fortsetzen_old.ps1                                                                                   22331     17.02.2026 14:04:26
+F:\Deployment\SetupScripts\old\star_old.ps1                                                                                         17748     17.02.2026 14:07:26
 F:\Deployment\SetupScripts\PROJEKT_DOKUMENTATION.txt                                                                                23126     11.02.2026 15:54:02
 F:\Deployment\SetupScripts\protokolle                                                                                                         16.02.2026 15:02:29
-F:\Deployment\SetupScripts\star_old.ps1                                                                                             17748     17.02.2026 14:07:26
-F:\Deployment\SetupScripts\start.ps1                                                                                                19482     17.02.2026 14:52:40
+F:\Deployment\SetupScripts\start.ps1                                                                                                19596     18.02.2026 12:28:32
 F:\Deployment\tiny11.xml                                                                                                            5446      17.02.2026 13:25:36
 

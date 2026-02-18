@@ -1,4 +1,4 @@
-# fortsetzen.ps1 - Phase 2: Nach-Installation
+﻿# fortsetzen.ps1 - Phase 2: Nach-Installation
 # Dieses Skript wird nach dem ersten Neustart ausgeführt und ist für die Installation von Anwendungen
 # und die endgültige Konfiguration verantwortlich.
 # Kompatibel mit Windows PowerShell 5.1 (kein ternärer Operator).
@@ -247,9 +247,21 @@ if ($CurrentProgress.etapaAtual -lt 3) {
             try { $InstallOffice = [bool]$InitialConfig.InstallOffice2016 } catch { $InstallOffice = $false }
 
             if ($InstallOffice) {
-                $OfficeInstallerPath = Join-Path $DeploymentRoot "Installationsprogramme\Office2016"
-                $OfficeSetup = Join-Path $OfficeInstallerPath "setup.exe"
-                $OfficeArgs  = "/quiet"
+                
+$OfficeInstallerPath = Join-Path $DeploymentRoot "Installationsprogramme\Office2016"
+
+# Robust: suche setup.exe rekursiv (die Office-DVD-Struktur liegt oft in Unterordnern)
+$OfficeSetup = $null
+try {
+    $OfficeSetup = Get-ChildItem -Path $OfficeInstallerPath -Filter "setup.exe" -File -Recurse -ErrorAction SilentlyContinue |
+                   Select-Object -First 1 -ExpandProperty FullName
+} catch { $OfficeSetup = $null }
+
+if (-not $OfficeSetup) {
+    Write-Log "FEHLER: Office 2016 Setup nicht gefunden unter: $OfficeInstallerPath"
+}
+
+$OfficeArgs  = "/quiet"
 
                 if (Test-Path $OfficeSetup) {
                     Write-Log "Starte Installation von Office 2016..."
@@ -426,6 +438,7 @@ if ($CurrentProgress.etapaAtual -lt 5) {
 
         $action    = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$AppsScript`""
         $trigger   = New-ScheduledTaskTrigger -AtLogOn -User "admin"
+        try { $trigger.Delay = "PT45S" } catch { }  # kurzer Delay, damit User-Session/Netzwerk sauber steht
         # Hinweis: Für AtLogOn mit Benutzer reicht der UserId; Passwort wird nicht gespeichert, wenn der Benutzer interaktiv (Auto-Login) angemeldet wird.
         $principal = New-ScheduledTaskPrincipal -UserId "admin" -LogonType InteractiveToken -RunLevel Highest
         $settings  = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfOnBatteries -MultipleInstances IgnoreNew
@@ -467,6 +480,12 @@ if ($CurrentProgress.etapaAtual -lt 7) {
         Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
     }
 
+        } else {
+            Write-Log "WARNUNG: RustDesk-Verzeichnis nicht gefunden: $RustDeskDir"
+        }
+    } catch {
+        Write-Log "FEHLER bei RustDesk-Konfiguration: $_"
+    }
 
     # 6.2 - Zabbix Agent
     Write-Log "Konfiguriere Zabbix Agent..."

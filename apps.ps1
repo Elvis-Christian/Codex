@@ -1,4 +1,4 @@
-# apps.ps1 - App-Installation (Winget) im Benutzerkontext (admin)
+﻿# apps.ps1 - App-Installation (Winget) im Benutzerkontext (admin)
 # Läuft als Scheduled Task "Win11SetupApps" beim Login des Users "admin"
 
 $DeploymentRoot = "C:\SetupScripts\Win11Deploy"
@@ -91,7 +91,28 @@ if (-not (Test-InternetConnection)) {
         foreach ($app in $AppsToInstall) {
             Write-Log "Installiere '$app'..."
             try {
-                winget install --id $app --silent --accept-source-agreements --accept-package-agreements | Out-Null
+                # Edge: Tiny11 hat häufig keinen Store-Stack; die msstore-ID kann dann scheitern.
+                if ($app -match "^XPFFTQ037JWMHS$") {
+                    Write-Log "Spezialfall Edge: Versuche zuerst Winget-Repo ID Microsoft.Edge..."
+                    winget install --id Microsoft.Edge --source winget --silent --accept-source-agreements --accept-package-agreements | Out-Null
+                    if ($LASTEXITCODE -ne 0) {
+                        Write-Log "WARNUNG: Winget-Repo Edge fehlgeschlagen (ExitCode=$LASTEXITCODE). Versuche msstore-ID $app..."
+                        winget install --id $app --silent --accept-source-agreements --accept-package-agreements | Out-Null
+                    }
+
+                    if ($LASTEXITCODE -ne 0) {
+                        $EdgeMsi = Join-Path $DeploymentRoot "Installationsprogramme\Edge\MicrosoftEdgeEnterpriseX64.msi"
+                        if (Test-Path $EdgeMsi) {
+                            Write-Log "Fallback: Installiere Edge offline via MSI: $EdgeMsi"
+                            Start-Process msiexec.exe -ArgumentList "/i `"$EdgeMsi`" /qn /norestart" -Wait | Out-Null
+                        } else {
+                            Write-Log "FEHLER: Edge konnte weder via Winget noch offline installiert werden (MSI fehlt).";
+                        }
+                    }
+                } else {
+                    winget install --id $app --silent --accept-source-agreements --accept-package-agreements | Out-Null
+                }
+
                 if ($LASTEXITCODE -ne 0) {
                     Write-Log "FEHLER: winget install ExitCode=$LASTEXITCODE für '$app'."
                 }
